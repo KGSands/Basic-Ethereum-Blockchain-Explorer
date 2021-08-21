@@ -1,0 +1,20 @@
+@import "../../styles/colours.scss";
+
+.languagePicker {
+  display: flex;
+  text-decoration: underline;
+  text-align: center;
+
+  .language {
+    flex: 0 1 50%;
+
+    .languageSpan {
+      color: blue;
+      font-weight: 600;
+      cursor: pointer;
+      &:hover {
+        color: darkblue;
+      }
+    }
+  }
+}

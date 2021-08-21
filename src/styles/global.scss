@@ -1,0 +1,33 @@
+@import "./colours.scss";
+
+html,
+body {
+  margin: auto;
+  width: 75vw;
+  font-family: Roboto, Tahoma, sans-serif;
+  font-size: 14px;
+  color: $text-color;
+}
+
+h2 {
+  color: $title-color;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+h3 {
+  color: $title-color;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+input {
+  font-family: Roboto, Tahoma, sans-serif;
+  font-size: 14px;
+  color: $text-color;
+}
+
+button {
+  font-family: Roboto, Tahoma, sans-serif;
+  font-size: 14px;
+}

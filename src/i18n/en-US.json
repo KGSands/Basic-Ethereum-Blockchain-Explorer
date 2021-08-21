@@ -1,0 +1,21 @@
+{
+    "translation": {
+        "pages": {
+            "eth": "Ethereum Blockchain Explorer"
+        },
+        "basic_info": {
+            "latest_block": "Latest Block",
+            "difficulty": "Difficulty",
+            "gas_price": "Gas Price"
+        },
+       "block_table": {
+            "last_updated": "Last updated {{time}}",
+            "title": "Recent Blocks",
+            "date": "Date",
+            "hash": "Hash",
+            "miner": "Miner",
+            "fail": "Cannot load blocks"
+       },
+       "loading": "Loading..."
+    }
+}

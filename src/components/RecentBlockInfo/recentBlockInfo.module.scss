@@ -1,0 +1,22 @@
+@import "../../styles/colours.scss";
+
+.wrapper {
+  .container {
+    .infoWrapper {
+      display: flex;
+
+      .infoContainer {
+        background-color: $background-color;
+        flex: 0 1 33%;
+        margin: 10px;
+        padding: 20px 0;
+        text-align: center;
+
+        .infoTitle {
+          color: $title-color;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

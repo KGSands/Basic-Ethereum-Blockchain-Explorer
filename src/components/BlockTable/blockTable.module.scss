@@ -1,0 +1,48 @@
+@import "../../styles/utils.module.scss";
+@import "../../styles/colours.scss";
+
+.wrapper {
+  padding-bottom: 10px;
+
+  .container {
+    border-top: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
+
+    .table {
+      margin: 0 7px;
+      overflow-y: auto;
+
+      .updateTime {
+        padding-top: 5px;
+      }
+
+      .titles {
+        display: flex;
+        .title {
+          padding: 0 10px;
+          flex: 0 1 28%;
+          &:nth-child(1) {
+            flex: 0 1 16%;
+          }
+        }
+      }
+
+      .blocks {
+        padding-bottom: 10px;
+        display: flex;
+        .blockValue {
+          padding: 0 10px;
+          flex: 0 1 28%;
+
+          @include ellipsis-common;
+          &:nth-child(1) {
+            flex: 0 1 16%;
+          }
+        }
+      }
+    }
+    .noBlocks {
+      padding-bottom: 10px;
+    }
+  }
+}
